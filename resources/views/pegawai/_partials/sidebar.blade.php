@@ -31,6 +31,22 @@
                 </a>
               </li>
               <li class="nav-item">
+                <a href="{{route('pegawai.bidang.index')}}" class="nav-link">
+                  <i class="fas fa-code-branch"></i>
+                  <p>
+                    Data Bidang
+                  </p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{route('pegawai.file.index')}}" class="nav-link">
+                  <i class="fas fa-file-alt"></i>
+                  <p>
+                    Data File
+                  </p>
+                </a>
+              </li>
+              <li class="nav-item">
                 <a href="{{route('pegawai.event.index')}}" class="nav-link">
                   <i class="fas fa-calendar-week"></i>
                   <p>
